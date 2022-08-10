@@ -1,0 +1,284 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html:-webkit-scrollbar-thumb{
+    background: #FF6347;
+}
+
+
+body{
+  /* font-family: 'Signika', sans-serif; */
+  font-family: 'Signika', sans-serif;
+  background-color: #2B2B2B;
+}
+
+#header {
+  margin-top: -25px;
+  margin-bottom: 0px;
+  background-image: url(images/back2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-nav li a{
+  float: right;
+  color: #fff!important;
+}
+.navbar-brand img{
+  width: 150px;
+  margin-left: 30px;
+}
+.navbar-toggler{
+  border: none!important;
+  outline: none!important;
+}
+nav .fav-bars
+{
+  color: #fff;
+  font-size: 26px;
+}
+.welcome{
+  color: #E6F5FF;
+  margin-top: 4.5rem;
+  margin-right: 50rem;
+}
+.welcome h1{
+  font-size: 5rem;
+}
+.welcome p{
+  font-size: 2rem;
+}
+.welcome img{
+  opacity: 0.0;
+}
+.bicep-intro{
+  padding: 5%;
+  font-size: 25px;
+}
+
+.exercise-bar-bicep{
+  margin: 2%;
+  margin-top: 0%;
+  height: 30vh;
+  width: 96%;
+  background-image: url(images/bicep.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px;
+  border-radius: 15px;
+}
+.exercise-bar-back{
+  margin: 2%;
+  margin-top: 0%;
+  height: 30vh;
+  width: 96%;
+  background-image: url(images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px;
+  border-radius: 15px;
+}
+.exercise-bar-tricep{
+  margin: 2%;
+  margin-top: 0%;
+  height: 30vh;
+  width: 96%;
+  background-image: url(images/tricep.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px;
+  border-radius: 15px;
+}
+.exercise-bar-chest{
+  margin: 2%;
+  margin-top: 0%;
+  height: 30vh;
+  width: 96%;
+  background-image: url(images/chest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px;
+  border-radius: 15px;
+}
+.exercise-bar-shoulder{
+  margin: 2%;
+  margin-top: 0%;
+  height: 30vh;
+  width: 96%;
+  background-image: url(images/shoulder.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px;
+  border-radius: 15px;
+}
+.exercise-bar{
+  font-size: 300%;
+}
+.exercise-bar-legs{
+  margin: 2%;
+  margin-top: 0%;
+  height: 30vh;
+  width: 96%;
+  background-image: url(images/leg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px;
+  border-radius: 15px;
+}
+.exercise-bar-abs{
+  margin: 2%;
+  margin-top: 0%;
+  height: 30vh;
+  width: 96%;
+  background-image: url(images/abs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px;
+  border-radius: 15px;
+}
+.exercise:hover{
+  color: blue;
+}
+.categories-bar{
+  text-align: center;
+  padding-top: 2% ;
+  color: white;
+}
+.card{
+  border-radius: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* padding: 0% */
+}
+.card img{
+  margin-top: 3%;
+  border-radius: 10px;
+}
+li {
+  font-size: 120%;
+}
+.zeropadding{
+  padding: 0px;
+}
+.blueback{
+  padding: 5%;
+  margin:0px;
+  background-color:#262A53;
+  border-radius: 15px;
+}
+.whiteback{
+  color: #262A53;
+}
+.addpadding{
+  padding: 10%;
+}
+.bluetext{
+  color: #262A53;
+  text-align: center;
+}
+.bluecard{
+  background-color: #262A53;
+}
+
+
+
+/* -----------------  footer  ----------------------- */
+
+
+
+ .bg-grey {
+    background: #292929;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+ }
+ footer {
+        color: white;
+        text-align: center;
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+color: grey;
+}
+footer h3 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h3:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+
+ .btn-footer {
+             color: grey;
+
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 30px;
+            line-height: 47px;
+ }
+ .btn-footer:hover {
+
+            text-decoration: none;
+
+ }
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+    margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+ .social .fa {
+color: white;
+font-size: 22px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+ footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: grey;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color: #f5f5f5 !important;
+
+}
+.logo-part {
+border-right: 1px solid white;
+height: 20rem;
+}
